@@ -17,7 +17,7 @@ npm i
 ### Clasp login
 
 ```sh
-npm run clasp:login
+make login
 ```
 
 ## Deployment

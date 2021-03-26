@@ -1,7 +1,7 @@
-import dayjs from 'dayjs';
+import { hello } from './app';
 
-const main = () => {
-  console.log(dayjs().format());
+declare const global: {
+  [x: string]: unknown;
 };
 
-main();
+global.hello = hello;

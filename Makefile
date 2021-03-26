@@ -2,4 +2,4 @@ login:
 	npm run clasp:login
 
 deploy:
-	npm run clasp:push
+	sh build.sh && npm run clasp:push

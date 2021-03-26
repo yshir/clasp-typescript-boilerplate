@@ -40,7 +40,10 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@google/clasp": "^2.3.0",
-    "dayjs": "^1.10.4"
+    "D": "^1.0.0",
+    "dayjs": "^1.10.4",
+    "eslint-loader": "^4.0.2"
   }
 }

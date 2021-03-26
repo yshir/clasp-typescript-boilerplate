@@ -1,5 +1,7 @@
+import dayjs from 'dayjs';
+
 const main = () => {
-  console.log('HELLO');
+  console.log(dayjs().format());
 };
 
 main();

@@ -5,6 +5,7 @@
   "scripts": {
     "clasp:login": "./node_modules/.bin/clasp login",
     "clasp:push": "./node_modules/.bin/clasp push",
+    "clasp:pull": "./node_modules/.bin/clasp pull",
     "dev": "./node_modules/.bin/ts-node src/index.ts",
     "eslint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix",
     "prettier:fix": "prettier --write .",

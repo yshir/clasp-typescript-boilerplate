@@ -20,12 +20,8 @@ npm i
 npm run clasp:login
 ```
 
-## Commands
+## Deployment
 
 ```sh
-# Login
-npm run clasp:login
-
-# Deploy
-npm run clasp:push
+make deploy
 ```
